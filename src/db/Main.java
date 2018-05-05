@@ -11,8 +11,6 @@ public class Main {
                 Persistence.createEntityManagerFactory("$objectdb/db/points.odb");
         EntityManager em = emf.createEntityManager();
 
-       
-
         // Close the database connection:
         em.close();
         emf.close();
